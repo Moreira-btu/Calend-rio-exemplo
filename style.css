@@ -148,8 +148,9 @@ footer{
     main{
         margin-left: 50px;
     }
-    main h{
+    main hr{
         position: relative;
         max-width: 90%;
+        max-height: 100%;
     }
 }
