@@ -1,0 +1,150 @@
+header {
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    background-color: black;
+    height: 120px;
+    padding: 30px;
+    padding-top: -50px;
+    margin-top: -50px;
+    text-shadow: 20px 20px 20px 0px #666;
+    border: 10px solid rgba(0,0,0,.5);
+    box-shadow: 0px 0px 2px 2px #666;
+    margin-bottom: 20px;
+}
+main{
+    text-align: center;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+ h2{
+    margin: 5px; 
+    border: 2px solid #666;
+
+}
+.mes{
+     margin: 3px;
+     width: 300px;
+     height: 400px;
+     border: 3px solid #666;
+     
+}
+.mes ul li button{
+    margin-top: -1px;
+}
+
+button:hover{
+    background-color: rgba(0,0,0,.3);
+    display: block;
+    box-shadow: 4px 4px 4px 3px rgba(0,0,0,.6);
+
+}
+#sem-dia{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    margin: 3px;
+}
+
+#sem-dia li{
+    padding: 3px;
+    
+}
+#sem-dia li button{
+    width: 35px;
+    height: 40px;
+
+}
+.dom{
+    border: none;
+    color:white;
+    background-color: rgba(214, 5, 5, 0.878);
+}
+.dom:hover{
+    background-color: rgb(238, 70, 70);
+    color: black;
+    box-shadow: 5px 5px 5px 4px ;
+
+}
+#ano-novo title{
+    font-size: 2em;
+
+
+}
+
+.dia{
+    background-color: rgb(17, 19, 23);
+    color: white;
+
+}
+.dia:hover{
+    background: #888;
+    color: black;
+    box-shadow: 5px 5px 5px 4px ;
+}
+.sem{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    margin: 3px;
+
+}
+.sem li{
+    padding: 3px;
+    
+}
+.sem li button{
+    width: 35px;
+    height: 40px;
+    border: 1px solid rgb(110, 101, 101);
+
+}
+.dia-mes-pass{
+    background-color: white;
+    border: 1px solid #888;
+    color: #888;
+}
+.dia-mes-pass:hover{
+    color:red;
+    background-color: rgba(0,0,0,.1);
+}
+#abr{
+    height: 460px;
+}
+#jul{
+    height: 460px;
+}
+#dez{
+    height: 460px;
+}
+
+
+footer img {
+    background-color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer{
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+}
+@media(max-width:500px){
+    main{
+        margin-left: 50px;
+    }
+}
+@media(max-width:900px){
+    main{
+        margin-left: 50px;
+    }
+}
