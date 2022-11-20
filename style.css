@@ -140,11 +140,16 @@ footer{
 }
 @media(max-width:500px){
     main{
-        margin-left: 25px;
+        margin-left:auto;
+        margin-right: auto;
     }
 }
 @media(max-width:900px){
     main{
         margin-left: 50px;
+    }
+    main h{
+        position: relative;
+        max-width: 90%;
     }
 }
